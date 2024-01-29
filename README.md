@@ -20,3 +20,14 @@ The manual annotation of IndQEL, in Indonesian Translation of Al-Quran, was carr
 # Experiment
 
 To showcase the utility of IndQEL as a benchmark dataset, it was used to evaluate cutting-edge EL systems in multilingual settings using the GERBIL framework. The EL systems included Babelfy, DBpedia Spotlight, MAG, and WAT. Steps to perform the evaluation can be found <a href="https://github.com/dice-group/gerbil/wiki/How-to-setup-GERBIL">here</a>. Evaluation results are as follows:
+
+| Annotator | F1 Score | Precision | Recall |
+| --------- | -------- | --------- | ------ |
+| Wat       | 0.7573   | 0.7681    | 0.7468 |
+| DBPedia   | 0.7501   | 0.8471    | 0.6731 |
+| Babelfy   | 0.5918   | 0.8       | 0.4696 |
+| MAG       | 0.1515   | 0.1523    | 0.1508 |
+
+# Another Evaluation with MAG
+
+To further investigate the impact of how Indonesian entities are presented in Wikidata on the EL systems' performance, another evaluation was performed by employing MAG, targeting the identification of NIL entities within Indonesian Translation of Al-Quran Domain. The evaluation results are distinguished into linked and Not in Lexicon (NIL) entities as follows:
