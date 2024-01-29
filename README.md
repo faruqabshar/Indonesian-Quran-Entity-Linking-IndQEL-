@@ -10,6 +10,13 @@ The author also conducts experiments on a multilingual entity linking system to 
 
 Overall, this research successfully constructs a guideline dataset for named entity disambiguation in the translation of the Al-Quran into Indonesian (IndQEL) and proves its quality through experimental evaluation. This dataset is expected to be a significant contribution to the development of Natural Language Processing (NLP) technology in the fields of Islam and Al-Quran translation.
 
+<a href="https://github.com/dice-group/IndQNER/tree/main/datasets">IndQNER</a> provides entities in the Indonesian Translation of the Quran. IndQEL is presented in NIF format. The dataset contains:
+
+| Domain | Sentence | Linked Entities |
+| -------| -------- | --------------- |
+| IndQEL | 2621     | 2456            |
+
+
 # Annotation Stage
 
 The manual annotation of IndQEL, in Indonesian Translation of Al-Quran, was carried out by non-volunteer native speakers. The annotators comprised students in their fourth year of bachelor studies from the Quran and Tafseer department at State Islamic University Syarif Hidayatullah Jakarta. There were 2 annotators as follows:
