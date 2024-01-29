@@ -31,3 +31,19 @@ To showcase the utility of IndQEL as a benchmark dataset, it was used to evaluat
 # Another Evaluation with MAG
 
 To further investigate the impact of how Indonesian entities are presented in Wikidata on the EL systems' performance, another evaluation was performed by employing MAG, targeting the identification of NIL entities within Indonesian Translation of Al-Quran Domain. The evaluation results are distinguished into linked and Not in Lexicon (NIL) entities as follows:
+
+| Domain | Total Entities | Linked Entities | NIL Entities |
+| ------ | -------------- | --------------- | ------------ |
+| IndQEL | 2456           | 1933            | 523          |
+
+# How To Use
+
+We have integrated IndEL into the <a href="https://gerbil.aksw.org/gerbil/">GERBIL framework</a>. This integration facilitates the evaluation of both multilingual and Indonesian-specific EL systems using IndQEL.
+
+# Further Development Plan
+
+During the creation of IndQEL, we identified that a significant number of entities are missing in the Indonesian Wikidata. This observation highlights the limited range of entries in Indonesian Wikidata, particularly in comparison with its counterparts in other languages. To address this, our improvement plan includes expanding the linkage of entities in IndQEL to other knowledge bases, such as DBpedia and YAGO. Additionally, in terms of Indonesian Translation of Al-Quran domain, our plan is to broaden the scope of the dataset to encompass the complete Indonesian translation of the Quran, extending from the currently included 8 chapters to all 114 chapters.
+
+# Contact
+
+If you have any questions or feedbacks, feel free to contact us at faruqabshar@gmail.com or faruq.abshar19@mhs.uinjkt.ac.id
