@@ -9,3 +9,14 @@ The research methodology includes selecting the IndQNER dataset as a reference, 
 The author also conducts experiments on a multilingual entity linking system to assess the quality of the IndQEL guideline dataset. The experiments involve the MAG system and the GERBIL platform. MAG generates 1933 links from 2456 named entities and 523 NIL entities in the IndQEL dataset. The experimental results indicate that the IndQEL dataset can serve as a reliable metric for evaluating named entity disambiguation systems. The WAT application from GERBIL is identified as the best application, achieving a recall of 0.7486 and an F1 score of 0.7573.
 
 Overall, this research successfully constructs a guideline dataset for named entity disambiguation in the translation of the Al-Quran into Indonesian (IndQEL) and proves its quality through experimental evaluation. This dataset is expected to be a significant contribution to the development of Natural Language Processing (NLP) technology in the fields of Islam and Al-Quran translation.
+
+# Annotation Stage
+
+The manual annotation of IndQEL, in Indonesian Translation of Al-Quran, was carried out by non-volunteer native speakers. The annotators comprised students in their fourth year of bachelor studies from the Quran and Tafseer department at State Islamic University Syarif Hidayatullah Jakarta. There were 2 annotators as follows:
+
+1. Rosyidatul Liulinnuha
+2. Azmi Muchtar
+
+# Experiment
+
+To showcase the utility of IndQEL as a benchmark dataset, it was used to evaluate cutting-edge EL systems in multilingual settings using the GERBIL framework. The EL systems included Babelfy, DBpedia Spotlight, MAG, and WAT. Steps to perform the evaluation can be found <a href="https://github.com/dice-group/gerbil/wiki/How-to-setup-GERBIL">here</a>. Evaluation results are as follows:
